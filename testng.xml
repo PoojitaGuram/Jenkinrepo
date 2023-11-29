@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" parallel="tests" name="Suite">
+<groups>
+	<run>
+		<include name="smoke"></include>
+	</run>
+</groups>
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="com.poo123.JenkinTest"/>
+      <class name="com.poo123.Jenkin2test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
