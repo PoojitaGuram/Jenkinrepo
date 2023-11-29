@@ -11,7 +11,5 @@ public class Jenkin2test {
 	public void htest() {
 		System.out.println("poo");
 		
-		
-		
 	}
 }
